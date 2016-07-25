@@ -1,5 +1,5 @@
 {
-  "name": "set-environment-decorator",
+  "name": "lambda-decorator-set-environment",
   "version": "1.0.0",
   "description": "AWS Lambda decorator to set running envrionment from ARN",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:blackwoodseven/set-environment-decorator.git"
+    "url": "git@github.com:blackwoodseven/lambda-decorator-set-environment.git"
   },
   "keywords": [
     "decorator",
@@ -19,9 +19,9 @@
   "author": "Guillem Salas <gs@blackwoodseven.com>",
   "license": "SEE LICENSE IN License.md",
   "bugs": {
-    "url": "https://github.com/blackwoodseven/set-environment-decorator/issues"
+    "url": "https://github.com/blackwoodseven/lambda-decorator-set-environment/issues"
   },
-  "homepage": "https://github.com/blackwoodseven/set-environment-decorator",
+  "homepage": "https://github.com/blackwoodseven/lambda-decorator-set-environment",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
