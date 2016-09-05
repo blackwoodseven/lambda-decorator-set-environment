@@ -11,6 +11,7 @@ const getEnvironmentFromArn = (arn) => {
 
 // Sets context.environment to the current environment the lambda is executing in
 module.exports = (handlerFn) => (event, context, callback) => {
+  console.log('Executing environment decorator')
   const extendedContext = Object.assign({}, context, {
       environment : getEnvironmentFromArn(context.invokedFunctionArn)
   })
