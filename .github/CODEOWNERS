@@ -1,0 +1,4 @@
+# Github file for defining code owners: https://help.github.com/articles/about-codeowners/
+
+# Default code ownership of all files to the platform team
+*       @blackwoodseven/team-platform-development
